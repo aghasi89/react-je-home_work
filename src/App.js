@@ -10,7 +10,6 @@ function App() {
     newRef.current.change(25);
   },[])
   const showHandler = useCallback(()=>{
-    console.log(newRef.current);
     if(input.current){
       console.log(input.current.value);
     }
