@@ -8,7 +8,6 @@ function App() {
   const clickHandler = useCallback(()=>{
     //count.current++
     newRef.current.change(25);
-    console.log("Click !!!");
   },[])
   const showHandler = useCallback(()=>{
     console.log(newRef.current);
